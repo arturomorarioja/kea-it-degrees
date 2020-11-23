@@ -12,7 +12,7 @@
 <body>
     <header>
         <img id="logo" src="img/kea.png">
-        <div id="headerTitle">Information Technology Degrees</div>
+        <div id="headerTitle">IT Degrees</div>
     </header>
     <nav>
         <section id="mainMenu">
