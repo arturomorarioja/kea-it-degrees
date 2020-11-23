@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 2px 20px;
+    color: white;
+    background-color: rgb(234, 80, 71); 
+    text-indent: 20px;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 35px;
+}
+img#logo {
+    float: left;
+    width: 109px;
+    height: 35px;
+}
+section#pictures {    
+    margin-top: 10px;
+}
+img#education {
+    float: left;
+    width: 50%;
+}
+img#lygten {
+    width: 50%;
+}
+@media only screen and (max-width: 480px) {
+    section#pictures > img {
+        width: 100%;
+    }
+    img#education {
+        float: none;
+    }
+}
+
+div#headerTitle {
+    overflow: auto;
+    padding-left: 20px;
+    text-indent: 0px;
+}
+
+nav section {
+    padding: 0px 20px;
+}
+nav section#mainMenu {
+    color: white;
+    background-color: rgb(39, 53, 74);
+    line-height: 2em;
+}
+nav section#breadcrumbs {
+    background-color: lightsteelblue;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+div.dropDownMenu {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+@media only screen and (max-width: 480px) {
+    div.dropDownMenu {
+        position: relative;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(39, 53, 74);
+    font-weight: bold;
+}
+a:hover {
+    color: lightgoldenrodyellow;
+}
+a.dropDown {
+    display: block;
+    padding: 0 10px;
+}
+@media only screen and (max-width: 480px) {
+    a.dropDown {
+        border: thin solid white;
+    }
+}
+
+nav a {
+    padding-right: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 480px) {
+    nav a {
+        display: block;
+        text-align: center;
+        border-bottom: thin solid white;
+    }
+}
+
+main {
+    padding: 10px 20px 40px;
+    position: relative;
+    top: 0px;
+    text-align: justify;
+}
+section.semester {
+    margin-top: 10px;
+    border: 10px solid rgb(234, 80, 71);
+    border-top: 0;
+}
+section > header {
+    padding: 0 0 0 10px;
+    text-indent: 0px;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+article.subject > header {
+    padding-left: 0px;
+    border-bottom: thick solid white;
+    color: rgb(39, 53, 74);
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+article.subject > main {
+    border-right: thick solid white;
+    padding-bottom: 10px;
+}
+
+footer#copyright {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+    background-color: rgb(39, 53, 74);
+    text-align: center;
+    font-size: 0.8em;    
+}
+@media only screen and (max-width: 480px) {
+    footer#copyright {
+        position: relative;
+    }
+}
+
+article#CS, #SD, #WD, #ITS {
+    display: none;
+}
+
+article > main {
+    display: none;
+}
