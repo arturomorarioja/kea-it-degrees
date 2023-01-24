@@ -70,7 +70,7 @@
                         },
                         {
                             "name": "Elective",
-                            "description": "In addition to the obligatory part of the programme, there is an elective part in which you can specialise in, for example, Project Management."
+                            "description": "In addition to the obligatory part of the programme, there are two elective subjects in which you can specialise in, for example, Project Management."
                         }                    
                     ]
                 },
@@ -87,7 +87,7 @@
                         },
                         {
                             "name": "Elective",
-                            "description": "In addition to the obligatory part of the programme, there is an elective part in which you can specialise in, for example, Project Management."
+                            "description": "In addition to the obligatory part of the programme, there are two elective subjects in which you can specialise in, for example, Project Management."
                         }                    
                     ]
                 },
@@ -124,7 +124,7 @@
                             "description": "The module focuses on learning how to design and develop relational databases and document based databases."
                         },
                         {
-                            "name": "Interface Design",
+                            "name": "User Experience",
                             "description": "The connection between functionality and design, enabling rich client-side interaction through the use of design techniques and principles."
                         }
                     ]
@@ -171,16 +171,16 @@
                             "description": "Faget omhandler grundlæggende programmering og netværk med henblik på it-sikkerhed. Du bliver introduceret til programmering med et programmeringssprog, der normalt anvendes inden for sikkerhedsverden. Du får viden, færdigheder og kompetencer i centrale begreber i forhold til it-sikkerhed i forhold til netværk (grundlæggende begreber som trafik monitorering ved sniffing). Yderligere kigges der på sikkerhedsaspekter ved protokollerne."
                         },
                         {
-                            "name": "IT-governance",
-                            "description": "Etik og principper for it-sikkerhed samt introduktion til principper og begreber inden for it-sikkerhed. Du får en forståelse for grundlæggende principper og antagelser i it-sikkerhedsarbejde og introduceres til etiske og politiske aspekter af samme."
-                        },
-                        {
                             "name": "Systemsikkerhed",
                             "description": "Du lærer at udføre, udvælge, anvende, og implementere praktiske tiltag til sikring af firmaets udstyr og får viden og færdigheder, der supporterer dette."
                         },
                         {
                             "name": "Netværks- og kommunikationssikkerhed",
                             "description": "Faget går ud på at forstå og håndtere netværkssikkerhedstrusler samt implementere og konfigurere udstyr til samme. Du vil lære om forskellige former for sikkerhedsudstyr (IDS) til monitorering. Derudover lærer du at vurdere sikkerheden i et netværk, udarbejde planer til at lukke eventuelle sårbarheder i netværket samt at gennemgå forskellige VPN teknologier."
+                        },
+                        {
+                            "name": "Anvendt kryptografi",
+                            "description": "Dette modul giver grundlæggende forståelse for kryptografi-principper, med fokus på, hvordan man korrekt og sikkert anvender kryptografiske algoritmer, som kan bruges i systemer i praksis."
                         }
                     ]
                 },
@@ -188,8 +188,8 @@
                     "semester": "2",
                     "subjects": [
                         {
-                            "name": "Videregående IT-governance",
-                            "description": "Du lærer at forstå og deltage i tilrettelæggelse af sikkerhedsarbejde i en virksomhed. Du får desuden forståelse for, hvordan samfundsorganisationer påvirker sikkerhedsarbejdet."
+                            "name": "IT-governance",
+                            "description": "Etik og principper for it-sikkerhed samt introduktion til principper og begreber inden for it-sikkerhed. Du får en forståelse for grundlæggende principper og antagelser i it-sikkerhedsarbejde og introduceres til etiske og politiske aspekter af samme."
                         },
                         {
                             "name": "Softwaresikkerhed",

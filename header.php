@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/kea_icon.jpg" type="image/ico">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>

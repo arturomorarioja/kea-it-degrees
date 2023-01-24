@@ -1,3 +1,5 @@
-    <footer id="copyright">&copy; 2020 KEA Software Development</footer>
+    <footer id="copyright">
+        <p>&copy; 2022 Arturo Mora-Rioja</p>
+    </footer>
 </body>
 </html>

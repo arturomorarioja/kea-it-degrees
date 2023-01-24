@@ -4,7 +4,7 @@
      * 
      * @param The name of the degree
      */
-    function showData($degreeName) {
+    function showData(string $degreeName): void {
         require_once('read_data.php');
 
         $degreeKey = array_search($degreeName, array_column($data, 'name'));
