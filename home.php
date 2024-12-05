@@ -1,6 +1,5 @@
-        <section id="breadcrumbs">
-            Home
-        </section>
+    <nav id="breadcrumbs">
+        <p>Home</p>
     </nav>
     <main id="main">
         <article id="Home">

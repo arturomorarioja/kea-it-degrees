@@ -9,7 +9,7 @@ The application is responsive.
 Since the information to display is read from a JSON file, the application must be run in a web server.
 
 ## Tools
-PHP / JQuery / JavaScript / CSS3 / HTML5
+PHP8 / JQuery / JavaScript / CSS3 / HTML5
 
 ## Author:
 Arturo Mora-Rioja

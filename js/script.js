@@ -4,9 +4,10 @@
  * 
  * @author  Arturo Mora-Rioja
  * @version 1.0.0 July 2020
- * @version 1.1.0 August 2021 Bug fix: submenus are now correctly repositioned when changing the viewport size
- *                            Style improvements
- * @version 1.1.1 January 2023 Linting
+ * @version 1.1.0 August 2021   Bug fix: submenus are now correctly repositioned when the viewport size changes
+ *                              Style improvements
+ * @version 1.1.1 January 2023  Linting
+ * @version 1.1.2 December 2024 Refactoring
  */
 'use strict';
 $(function() {
@@ -15,7 +16,7 @@ $(function() {
     $('article > header').on('click', function() {
         const articleContent = $(this).siblings(':eq(0)');
         if (!articleContent.is(':visible')) {
-            $('article.subject > main').slideUp();  // Subject info is hidden for all subjects
+            $('article.subject > p').slideUp();  // Subject info is hidden for all subjects
             articleContent.slideDown();             // Subject info for the present subject is shown
         } else {
             articleContent.slideUp();               // Subject info for the present subject is hidden
